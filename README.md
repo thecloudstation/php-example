@@ -44,7 +44,7 @@ CloudStation allows you to configure the port for your application through the d
 1. In the deployment settings, click on "Add New Network" under the Networks section.
 2. In the "Network Configuration" modal that appears:
    - Set the port to 80 (for a standard PHP/Apache setup).
-   - The "Public Networking" field will be automatically populated (e.g., "php.software-ship.com").
+   - The "Public Networking" field will be automatically populated (e.g., "php.cloud-station.app").
    - You can add a custom domain if desired.
    - Ensure the "Public" toggle is enabled if you want your application to be publicly accessible.
    - Set up the Health Check parameters:
