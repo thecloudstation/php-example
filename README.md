@@ -2,9 +2,9 @@
   <a href="https://cloud-station.io">
     <img src="https://server.cloud-station.io/cloudstation/cs_icon.png" alt="CloudStation Logo" width="50">
   </a>
-  <h3 align="center">CloudStation FastAPI Starter</h3>
+  <h3 align="center">CloudStation PHP Starter</h3>
   <p align="center">
-    Deploy your FastAPI application seamlessly with CloudStation.
+    Deploy your PHP application seamlessly with CloudStation.
     <br />
     <a href="https://cloud-station.io">Visit CloudStation</a> ·
     <a href="https://documentation.cloud-station.io/s/ce6e8846-8aec-4337-a850-5188b6dc6d6e">Documentation</a> ·
@@ -21,16 +21,6 @@ Follow these steps to get your PHP application running on CloudStation.
 
 ### Prerequisites
 Ensure you have a CloudStation account. If you don't have one yet, sign up [here](https://www.cloud-station.io/signup).
-
-### Quick Deploy
-
-To deploy this application instantly, click the button below:
-
-<p align="center">
-  <a href="https://www.cloud-station.io/template-store/php">
-    <img src="https://server.cloud-station.io/cloudstation/Deploy_TO_CS.gif" alt="Deploy to CloudStation" width="250"">
-  </a>
-</p>
 
 ### Step-by-Step Deployment (For Customization)
 Fork the Repository:
