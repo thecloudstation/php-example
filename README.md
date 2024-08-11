@@ -1,13 +1,13 @@
 <div align="center">
   <a href="https://cloud-station.io">
-    <img src="https://www.cloud-station.io/logo-light.svg" alt="CloudStation Logo" width="200" height="80">
+    <img src="https://server.cloud-station.io/cloudstation/cs_icon.png" alt="CloudStation Logo" width="50">
   </a>
-  <h3 align="center">CloudStation</h3>
+  <h3 align="center">CloudStation FastAPI Starter</h3>
   <p align="center">
-    Deploy your PHP application seamlessly with CloudStation.
+    Deploy your FastAPI application seamlessly with CloudStation.
     <br />
-    <a href="https://cloud-station.io">Visit CloudStation</a>·
-    <a href="https://documentation.cloud-station.io/s/ce6e8846-8aec-4337-a850-5188b6dc6d6e">Documentation</a>·
+    <a href="https://cloud-station.io">Visit CloudStation</a> ·
+    <a href="https://documentation.cloud-station.io/s/ce6e8846-8aec-4337-a850-5188b6dc6d6e">Documentation</a> ·
     <a href="https://blog.cloud-station.io">Blog</a>
   </p>
 </div>
@@ -22,7 +22,17 @@ Follow these steps to get your PHP application running on CloudStation.
 ### Prerequisites
 Ensure you have a CloudStation account. If you don't have one yet, sign up [here](https://www.cloud-station.io/signup).
 
-### Step-by-Step Deployment
+### Quick Deploy
+
+To deploy this application instantly, click the button below:
+
+<p align="center">
+  <a href="https://www.cloud-station.io/template-store/php">
+    <img src="https://server.cloud-station.io/cloudstation/Deploy_TO_CS.gif" alt="Deploy to CloudStation" width="250"">
+  </a>
+</p>
+
+### Step-by-Step Deployment (For Customization)
 Fork the Repository:
 
 Click the Fork button at the top-right of this repository to create your own copy.
@@ -38,22 +48,6 @@ Click the Fork button at the top-right of this repository to create your own cop
 #### Automatic Build with Nixpacks
 
 CloudStation first checks if your application contains a Dockerfile. If a Dockerfile is present, it will be used for building your application. If no Dockerfile is found, CloudStation uses Nixpacks, a build system that automatically detects the programming language and framework of your application. For this PHP application, Nixpacks identifies it as a PHP project and manages the entire build process seamlessly. This approach simplifies the deployment workflow and reduces setup time for projects without a custom Dockerfile.
-#### Port Configuration
-CloudStation allows you to configure the port for your application through the deployment interface. Here's how to set it up:
-
-1. In the deployment settings, click on "Add New Network" under the Networks section.
-2. In the "Network Configuration" modal that appears:
-   - Set the port to 80 (for a standard PHP/Apache setup).
-   - The "Public Networking" field will be automatically populated (e.g., "php.cloud-station.app").
-   - You can add a custom domain if desired.
-   - Ensure the "Public" toggle is enabled if you want your application to be publicly accessible.
-   - Set up the Health Check parameters:
-     - Protocol: HTTP
-     - Path: /
-     - Timeout: 30s
-     - HC Port: 80
-
-These settings ensure that your PHP application runs on the correct port and is properly configured for CloudStation's environment.
 
 ### Access Your Application:
 Once deployed, your application will be accessible at https://php-example.cloud-station.app.
